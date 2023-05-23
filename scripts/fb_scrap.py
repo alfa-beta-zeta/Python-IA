@@ -12,8 +12,8 @@ options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=service, options=options)
 
 url = 'https://facebook.com'  # Facebook mobile view URL
-username = 'trano.vacance@gmail.com'  # Replace with your Facebook username
-password = 'trano-vacance.'  # Replace with your Facebook password
+username = ''  # Replace with your Facebook username
+password = ''  # Replace with your Facebook password
 
 driver.get(url)
 
